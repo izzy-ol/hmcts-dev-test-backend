@@ -6,17 +6,18 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDateTime;
+//import java.util.UUID;
 
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
-public class ExampleCase {
+public class TaskDetails {
 
     private int id;
     private String caseNumber;
     private String title;
     private String description;
     private String status;
-    private LocalDateTime createdDate;
+    private LocalDateTime dueDate;
 }
