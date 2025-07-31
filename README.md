@@ -18,10 +18,10 @@ make test
 ```
 
 ### To do list:
-1. [ ] Set up db
-2. [ ] Set up db creds
+1. [x] Set up db
+2. [x] Set up db creds
 3. [ ] Set up test data
 4. [ ] Swagger docs
 5. [ ] Makeffile
 6. [x] Update ReadMe
-7. [ ] Dockerise
+7. [x] Dockerise
