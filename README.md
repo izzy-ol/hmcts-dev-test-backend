@@ -8,13 +8,22 @@ A simple Spring Boot app to help with managing tasks. Forked from [hmcts-dev-tes
 * Postgres
 * IDE of choice
 
+
+### Latest merge state
+Failing to build
+
+### Building the app
+```bash
+docker-compose build --no-cache
+```
+
 ### Starting the application
 ```bash
-make up
+docker-compose up
 ```
-### Running the tests
+### Shutting down
 ```bash
-make test
+docker-compose down -v
 ```
 
 ### To do list:
